@@ -1,4 +1,4 @@
-FROM python:3
+FROM python
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 ENV LINK http://www.meetup.com/cloudyuga/
